@@ -1,66 +1,61 @@
-
-
-body {
+body, .container {
   margin: 0;
   padding: 0;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .container {
-  height: 100vh; 
-  width: 100vw; 
-  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
   border: 2px solid #8c00ff;
-  display: flex; /* Добавляем flexbox для центрирования */
-  justify-content: center; /* Центрируем по горизонтали */
-  /*align-items: center; /* Центрируем по вертикали */
-  overflow: hidden; /* Скрываем прокрутку */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .plateWorkSpace {
   border: 2px solid #1900ff;
   padding: 10px;
-  box-sizing: border-box; /* Учитываем padding и border в размерах */
-  margin: 40px auto 0; /* Отступ сверху (40px) и центрирование по горизонтали */
-  width: clamp(650px, 50%, 900px); /* Ширина элемента */
-  height: clamp(400px, 50%, 400px); /* Высота элемента */
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  width: clamp(650px, 50%, 900px);
+  height: clamp(400px, 50%, 400px);
 }
+
 @media (min-width: 650px) {
   .plateWorkSpace {
-    width: calc(650px + 40%); /* Элемент продолжает расти с меньшим коэффициентом */
+    width: min(900px, calc(650px + 40%));
   }
 }
+
 @media (min-height: 400px) {
   .plateWorkSpace {
-    height: calc(400px + 40%); /* Элемент продолжает расти с меньшим коэффициентом */
-    margin: calc(40px+60%) auto 0;
+    height: min(600px, calc(400px + 40%));
+    margin-top: min(100px, calc(40px + 60%));
   }
 }
-
-
 
 .grid {
   display: grid;
-  /*grid-template-columns: repeat(auto-fill, 250px);*/
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Количество колонок адаптируется под ширину */
-  /*grid-auto-rows: 180px; /* Фиксированная высота строк */
-  gap: 5%; /* Убираем отступы между тайлами */
-  justify-content: center;
-  align-items: center;
-  width: 100%; /* Занимаем всю ширину контейнера */
-  height: 100%; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5%;
+  place-items: center;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
-  border: 2px solid #3cff00; 
+  border: 2px solid #3cff00;
 }
 
 .tile {
   background-color: #f0f0f0;
-  width: 250px; 
-  height: 250px; 
+  width: 250px;
+  height: 250px;
   border-radius: 2%;
   border: 2px solid #ff0000;
   box-sizing: border-box;
+  transition: background-color 0.2s ease;
 }
+
 .tile:hover {
   background-color: #e0e0e0;
 }
