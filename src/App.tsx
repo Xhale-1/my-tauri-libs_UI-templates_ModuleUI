@@ -5,7 +5,9 @@ import { modules } from "./modules/2struct_modules.tsx";
 function App() {
   return (
     <main className="container">
-      <ModuleGrid modules={modules} />
+      <div className="plateWorkSpace">
+        <ModuleGrid modules={modules} />
+      </div>
     </main>
   );
 }
