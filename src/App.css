@@ -1,0 +1,43 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+.container {
+  height: 100vh; 
+  width: 100vw; 
+  box-sizing: border-box;
+  border: 2px solid #8c00ff;
+  display: flex; /* Добавляем flexbox для центрирования */
+  justify-content: center; /* Центрируем по горизонтали */
+  align-items: center; /* Центрируем по вертикали */
+  overflow: hidden; /* Скрываем прокрутку */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px); /* Количество колонок адаптируется под ширину */
+  /*grid-auto-rows: 180px; /* Фиксированная высота строк */
+  gap: 1rem; /* Убираем отступы между тайлами */
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Занимаем всю ширину контейнера */
+  height: 100%; 
+  box-sizing: border-box;
+  border: 2px solid #3cff00; 
+}
+
+.tile {
+  background-color: #f0f0f0;
+  width: 250px; 
+  height: 250px; 
+  border-radius: 2%;
+  border: 2px solid #ff0000;
+  box-sizing: border-box;
+}
+.tile:hover {
+  background-color: #e0e0e0;
+}
