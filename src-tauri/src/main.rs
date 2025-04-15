@@ -1,37 +1,45 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+use src_modules::module1;
+
 
 
 use oracle::Connection;
 
-#[tauri::command]
-fn dsaemdbquery(query: &str) -> String {
+// #[tauri::command]
+// fn dsaemdbquery(query: &str) -> String {
 
-    let username = "E3_ADMIN";
-    let password = "ddbadmine3";
-    let connect_string = "pme3app1:1521/E3P2";
 
-    // Подключаемся к базе
-    let conn = match Connection::connect(username, password, connect_string) {
-        Ok(c) => c,
-        Err(e) => return format!("Connection failed: {}", e),
-    };
+//     let username = "E3_ADMIN";
+//     let password = "ddbadmine3";
+//     let connect_string = "pme3app1:1521/E3P2";
 
-    // Выполняем запрос
-    match conn.query_row(query, &[]) {
-        Ok(row) => row.get(0).unwrap_or_else(|_| "No data".to_string()),
-        Err(e) => format!("Query failed: {}", e),
-    }
-}
+//     // Подключаемся к базе
+//     let conn = match Connection::connect(username, password, connect_string) {
+//         Ok(c) => c,
+//         Err(e) => return format!("Connection failed: {}", e),
+//     };
+
+//     // Выполняем запрос
+//     match conn.query_row(query, &[]) {
+//         Ok(row) => row.get(0).unwrap_or_else(|_| "No data".to_string()),
+//         Err(e) => format!("Query failed: {}", e),
+//     }
+// }
 
 
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![dsaemdbquery]) 
+        .invoke_handler(tauri::generate_handler![module1::module_query_backend::simpleQuery]) 
         .setup(|app| {
+            
+            let app_handle = app.handle(); 
+            module1::module_query_backend::start_sending_data2(app_handle.clone());
+            
             Ok(())
+
         })
         .run(tauri::generate_context!())
         .expect("Ошибка при запуске приложения Tauri");

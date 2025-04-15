@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { invoke } from "@tauri-apps/api/core";
 
-const Query = () => {
+const Query_preview = () => {
     const [dev, setdev] = useState<string | null>("1");
     const [sym, setsym] = useState<string | null>("2");
 
@@ -9,8 +9,8 @@ const Query = () => {
 
         const query1 = "SELECT COUNT(*) FROM E3_ADMIN.\"ComponentData\" ";
         const query2 = "SELECT COUNT(*) FROM E3_ADMIN.\"SymbolData\" ";
-        const response: string = await invoke("dsaemdbquery", { query: query1 });
-        const response2: string = await invoke("dsaemdbquery", {query: query2});
+        const response: string = await invoke("simpleQuery", { query: query1 });
+        const response2: string = await invoke("simpleQuery", {query: query2});
         setdev(response);
         setsym(response2);
     }
@@ -32,4 +32,4 @@ const Query = () => {
 
 };
 
-export default Query;
+export default Query_preview;

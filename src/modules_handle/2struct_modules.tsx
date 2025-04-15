@@ -2,11 +2,13 @@
 
 import { ReactNode } from "react";
 import { FiCamera, FiCpu, FiDatabase } from "react-icons/fi";
-import Query from "./1modules_itself/1module/module1_query.tsx";
+import Query_preview from "../../src_modules/src/module1/module-query_preveiw.tsx";
+import Query_workspace from "../../src_modules/src/module1/module-query_workspace.tsx";
 
 interface ModuleInfo {
   id: string;
   preview: ReactNode;
+  workspace: ReactNode;
 }
 
 export const modules: ModuleInfo[] = [
@@ -18,6 +20,11 @@ export const modules: ModuleInfo[] = [
         <p>Камера: подключена</p>
       </div>
     ),
+    workspace: (
+      <div>
+        <FiCamera size={70} />
+      </div>
+    ),
   },
   {
     id: "processor",
@@ -27,6 +34,7 @@ export const modules: ModuleInfo[] = [
         <p>Загрузка CPU: 25%</p>
       </div>
     ),
+    workspace: 0,
   },
   {
     id: "database",
@@ -37,9 +45,11 @@ export const modules: ModuleInfo[] = [
         <button>Обновить</button>
       </div>
     ),
+    workspace:0,
   },
   {
     id: "query",
-    preview: <Query/>,
+    preview: <Query_preview/>,
+    workspace: <Query_workspace/>,
   }
 ];

@@ -1,11 +1,11 @@
 import "./App.css";
-import ModuleGrid from "./modules/4ModuleGrid.tsx";
-import { modules } from "./modules/2struct_modules.tsx";
+import ModuleGrid from "./modules_handle/4ModuleGrid.tsx";
+import { modules } from "./modules_handle/2struct_modules.tsx";
 
 function App() {
   return (
     <main className="container">
-      <div className="plateWorkSpace">
+      <div className="backingPlate">
         <ModuleGrid modules={modules} />
       </div>
     </main>

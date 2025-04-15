@@ -13,7 +13,7 @@ body, .container {
   box-sizing: border-box;
 }
 
-.plateWorkSpace {
+.backingPlate {
   border: 2px solid #1900ff;
   padding: 10px;
   box-sizing: border-box;
@@ -23,13 +23,13 @@ body, .container {
 }
 
 @media (min-width: 650px) {
-  .plateWorkSpace {
+  .backingPlate {
     width: min(900px, calc(650px + 40%));
   }
 }
 
 @media (min-height: 400px) {
-  .plateWorkSpace {
+  .backingPlate {
     height: min(600px, calc(400px + 40%));
     margin-top: min(100px, calc(40px + 60%));
   }
@@ -58,4 +58,34 @@ body, .container {
 
 .tile:hover {
   background-color: #e0e0e0;
+}
+
+
+
+/* Обновленные стили для панели workspace */
+.workspace {
+  position: fixed; /* Фиксированное положение на экране */
+  top: 50%; /* Центрируем по вертикали */
+  left: 50%; /* Центрируем по горизонтали */
+  transform: translate(-50%, -50%); /* Корректировка для точного центрирования */
+  width: 80%; /* Ширина панели */
+  height: 80%; /* Высота панели */
+  background-color: white; /* Цвет фона панели */
+  z-index: 1000; /* Убедитесь, что панель находится поверх overlay */
+  overflow: auto; /* Добавьте прокрутку, если контент не помещается */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Добавьте тень для визуального эффекта */
+  display: flex; /* Используйте flexbox для центрирования содержимого */
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+}
+
+/* Стили для затемнения фона */
+.overlay {
+  position: fixed; /* Фиксированное положение на экране */
+  top: 0;
+  left: 0;
+  width: 100%; /* Занимает всю ширину экрана */
+  height: 100%; /* Занимает всю высоту экрана */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+  z-index: 999; /* Находится под панелью workspace */
 }

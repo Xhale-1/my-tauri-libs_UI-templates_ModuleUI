@@ -24,3 +24,5 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 oracle = "0.6.3"
 tokio = { version = "1", features = ["full"] }
+src_modules = { path = "../src_modules"}
+
