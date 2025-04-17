@@ -33,4 +33,4 @@ Thumbs.db
 # React App build artifacts
 /public/build/
 /public/assets/ 
-
+/target/

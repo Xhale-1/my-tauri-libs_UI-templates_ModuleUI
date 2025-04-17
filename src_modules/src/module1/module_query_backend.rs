@@ -8,13 +8,20 @@ use std::collections::HashMap;
 use serde::{Serialize, Deserialize};
 use serde_json::Value;
 
+use std::env;
+use dotenv::dotenv;
 
 #[tauri::command]
 pub fn simpleQuery(query: &str) -> String {
 
-    let username = "E3_ADMIN";
-    let password = "ddbadmine3";
-    let connect_string = "pme3app1:1521/E3P2";
+    let username_owned: String = env::var("username_DB").expect("name is not set");
+    let username = username_owned.as_str();
+
+    let password: String = env::var("password_DB").expect("name is not set");
+    let password = password.as_str();
+
+    let connect_string: String = env::var("connect_string_DB").expect("name is not set");
+    let connect_string = connect_string.as_str();
 
     // Подключаемся к базе
     let conn = match Connection::connect(username, password, connect_string) {
@@ -58,9 +65,15 @@ impl DbResult0 {
 }
 
 pub fn make_dsaem_db_query(query: &str) -> Result<ResultSet<'static, Row>, String> {
-    let username = "E3_ADMIN";
-    let password = "ddbadmine3";
-    let connect_string = "pme3app1:1521/E3P2";
+
+    let username_owned: String = env::var("username_DB").expect("name is not set");
+    let username = username_owned.as_str();
+
+    let password: String = env::var("password_DB").expect("name is not set");
+    let password = password.as_str();
+
+    let connect_string: String = env::var("connect_string_DB").expect("name is not set");
+    let connect_string = connect_string.as_str();
 
     // Пытаемся подключиться к БД
     let conn = match Connection::connect(username, password, connect_string) {
