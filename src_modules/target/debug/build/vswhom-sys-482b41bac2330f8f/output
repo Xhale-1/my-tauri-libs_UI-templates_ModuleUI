@@ -1,0 +1,80 @@
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=ext/vswhom.cpp
+OPT_LEVEL = Some(0)
+OUT_DIR = Some(D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\build\vswhom-sys-482b41bac2330f8f\out)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps;D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug;C:\Users\Rud_MS\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\#╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\nodejs\;C:\ProgramData\chocolatey\bin;D:\1a_╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\oracle DB\instantclient-basic-windows.x64-23.7.0.25.01\instantclient_23_7;C:\ProgramData\chocolatey\lib\wixtoolset\tools;D:\1a_╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\wix314-binaries\wix314-binaries;C:\wix\wix314-binaries;C:\Users\Rud_MS\.cargo\bin;C:\Users\Rud_MS\AppData\Local\Microsoft\WindowsApps;D:\#╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\VS Code\Microsoft VS Code\bin;C:\Users\Rud_MS\.dotnet\tools;C:\Users\Rud_MS\AppData\Roaming\npm;D:\1a_programs\Git\cmd)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+vswhom.cpp
+ext/vswhom.cpp(213): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+ext/vswhom.cpp(216): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+ext/vswhom.cpp(431): warning C4456: объявление "hr" скрывает предыдущее локальное объявление
+ext/vswhom.cpp(418): note:  см. объявление "hr"
+ext/vswhom.cpp(459): warning C4244: аргумент: преобразование "LONGLONG" в "int", возможна потеря данных
+ext/vswhom.cpp(502): warning C4456: объявление "rc" скрывает предыдущее локальное объявление
+ext/vswhom.cpp(410): note:  см. объявление "rc"
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\atlmfc\lib\x64
+cargo:rustc-link-lib=static=vswhom
+cargo:rustc-link-search=native=D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\build\vswhom-sys-482b41bac2330f8f\out
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-pc-windows-msvc
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_pc_windows_msvc
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-lib=dylib=OleAut32
+cargo:rustc-link-lib=dylib=Ole32

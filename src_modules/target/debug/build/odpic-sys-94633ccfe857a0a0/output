@@ -1,0 +1,103 @@
+OUT_DIR = Some(D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\build\odpic-sys-94633ccfe857a0a0\out)
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps;D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug;C:\Users\Rud_MS\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\#╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\nodejs\;C:\ProgramData\chocolatey\bin;D:\1a_╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\oracle DB\instantclient-basic-windows.x64-23.7.0.25.01\instantclient_23_7;C:\ProgramData\chocolatey\lib\wixtoolset\tools;D:\1a_╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\wix314-binaries\wix314-binaries;C:\wix\wix314-binaries;C:\Users\Rud_MS\.cargo\bin;C:\Users\Rud_MS\AppData\Local\Microsoft\WindowsApps;D:\#╨┐╤А╨╛╨│╤А╨░╨╝╨╝╤Л\VS Code\Microsoft VS Code\bin;C:\Users\Rud_MS\.dotnet\tools;C:\Users\Rud_MS\AppData\Roaming\npm;D:\1a_programs\Git\cmd)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+OUT_DIR = Some(D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\build\odpic-sys-94633ccfe857a0a0\out)
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+TARGET = Some(x86_64-pc-windows-msvc)
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+dpi.c
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\include\dpi.h(803): warning C4201: нестандартное расширение: структура (объединение) без имени
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\include\dpi.h(807): warning C4201: нестандартное расширение: структура (объединение) без имени
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\include\dpi.h(811): warning C4201: нестандартное расширение: структура (объединение) без имени
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiOci.c(696): warning C4100: unused: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiOci.c(1520): warning C4100: unused: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiOci.c(1856): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiOci.c(2262): warning C4152: нестандартное расширение; преобразование указателя на функцию в указатель на данные (или наоборот) в выражении
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiOci.c(3033): warning C4100: unused: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiPool.c(83): warning C4100: mode: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiRowid.c(58): warning C4100: error: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSodaCollCursor.c(123): warning C4100: flags: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSodaDb.c(222): warning C4100: flags: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSodaDb.c(250): warning C4100: flags: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSodaDocCursor.c(123): warning C4100: flags: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSubscr.c(49): warning C4100: mode: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSubscr.c(48): warning C4100: payloadLength: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSubscr.c(48): warning C4100: payload: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiSubscr.c(47): warning C4100: handle: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiVar.c(364): warning C4100: piecep: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiVar.c(363): warning C4100: defnp: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiVar.c(861): warning C4100: index: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\embed\../src/dpiVar.c(860): warning C4100: bindp: неиспользованный формальный параметр
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\src\dpiSodaDb.c(287) : warning C4701: использована потенциально неинициализированная локальная переменная "jsonHandle"
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\src\dpiSodaDb.c(287) : warning C4703: используется потенциально неинициализированная локальная переменная-указатель "jsonHandle"
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\src\dpiDebug.c(111) : warning C4701: использована потенциально неинициализированная локальная переменная "time"
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\src\dpiSodaColl.c(172) : warning C4701: использована потенциально неинициализированная локальная переменная "returnHandleType"
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\odpic-sys-0.1.1\odpi\src\dpiConn.c(1417) : warning C4701: использована потенциально неинициализированная локальная переменная "dateValue"
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\atlmfc\lib\x64
+cargo:rustc-link-lib=static=odpic
+cargo:rustc-link-search=native=D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\build\odpic-sys-94633ccfe857a0a0\out

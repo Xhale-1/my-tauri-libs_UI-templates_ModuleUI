@@ -1,0 +1,11 @@
+D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps\libwry-07555c8e48321481.rmeta: C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\lib.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\error.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\proxy.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\web_context.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\mod.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\drag_drop.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\util.rs
+
+D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps\wry-07555c8e48321481.d: C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\lib.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\error.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\proxy.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\web_context.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\mod.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\drag_drop.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\util.rs
+
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\lib.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\error.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\proxy.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\web_context.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\mod.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\drag_drop.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\wry-0.51.2\src\webview2\util.rs:

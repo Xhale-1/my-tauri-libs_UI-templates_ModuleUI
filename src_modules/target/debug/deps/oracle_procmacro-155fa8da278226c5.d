@@ -1,0 +1,8 @@
+D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps\oracle_procmacro-155fa8da278226c5.dll: C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\lib.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\derive_row_value.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\remove_stmt_lifetime.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\../docs/row_value.md
+
+D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps\oracle_procmacro-155fa8da278226c5.d: C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\lib.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\derive_row_value.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\remove_stmt_lifetime.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\../docs/row_value.md
+
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\lib.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\derive_row_value.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\remove_stmt_lifetime.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\oracle_procmacro-0.1.2\src\../docs/row_value.md:

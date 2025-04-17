@@ -1,0 +1,14 @@
+D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps\libsoftbuffer-6f1cf19d2e6394fd.rmeta: C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\lib.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backend_dispatch.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backend_interface.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backends\mod.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backends\win32.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\error.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\util.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\../README.md
+
+D:\1a_work\zadaniya\5_administrate_BD\frontend_temples\modules_UI\src_modules\target\debug\deps\softbuffer-6f1cf19d2e6394fd.d: C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\lib.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backend_dispatch.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backend_interface.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backends\mod.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backends\win32.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\error.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\util.rs C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\../README.md
+
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\lib.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backend_dispatch.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backend_interface.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backends\mod.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\backends\win32.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\error.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\util.rs:
+C:\Users\Rud_MS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\softbuffer-0.4.6\src\../README.md:
+
+# env-dep:CARGO_PKG_VERSION=0.4.6
